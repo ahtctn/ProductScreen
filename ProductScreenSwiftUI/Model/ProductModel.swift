@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct ProductModel: Identifiable {
+struct ProductModel: Hashable, Identifiable {
     
-    var id: Int
+    var id = UUID()
     let image: UIImage
     let name: String
     let rateStar: Double

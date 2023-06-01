@@ -3,4 +3,54 @@
    uuid = "DFF13859-A968-4494-B9D5-72F31ED8BD5C"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63C7A8F5-F074-4E8F-A21A-E73E8C9A2920"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProductScreenSwiftUI/View/Subviews/DiscoverView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "DiscoverView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "63C7A8F5-F074-4E8F-A21A-E73E8C9A2920 - 5a9c0054fb3b89e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of ProductScreenSwiftUI.DiscoverView.viewModel : ProductScreenSwiftUI.ProductsViewModel"
+                  moduleName = "ProductScreenSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmetalicetin/Desktop/Swift/ProductScreenSwiftUI/ProductScreenSwiftUI/ProductScreenSwiftUI/View/Subviews/DiscoverView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "63C7A8F5-F074-4E8F-A21A-E73E8C9A2920 - c65623f5d37d86ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProductScreenSwiftUI.DiscoverView.init() -&gt; ProductScreenSwiftUI.DiscoverView"
+                  moduleName = "ProductScreenSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmetalicetin/Desktop/Swift/ProductScreenSwiftUI/ProductScreenSwiftUI/ProductScreenSwiftUI/View/Subviews/DiscoverView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

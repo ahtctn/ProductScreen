@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B0612612A29437800FA1C1A /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0612602A29437800FA1C1A /* RectangleView.swift */; };
 		7B5AC0372A28DAC000A6CF68 /* ProductScreenSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5AC0362A28DAC000A6CF68 /* ProductScreenSwiftUIApp.swift */; };
 		7B5AC0392A28DAC000A6CF68 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5AC0382A28DAC000A6CF68 /* DiscoverView.swift */; };
 		7B5AC03B2A28DAC100A6CF68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B5AC03A2A28DAC100A6CF68 /* Assets.xcassets */; };
@@ -22,9 +23,11 @@
 		7B5AC05E2A28EFD000A6CF68 /* ProductStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5AC05D2A28EFD000A6CF68 /* ProductStarView.swift */; };
 		7B5AC0602A28F0C700A6CF68 /* ExtraArgumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5AC05F2A28F0C700A6CF68 /* ExtraArgumentView.swift */; };
 		7B5AC0622A28FC4800A6CF68 /* ScrollableProductImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5AC0612A28FC4800A6CF68 /* ScrollableProductImageView.swift */; };
+		7B7F460B2A292CB300F39A27 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F460A2A292CB300F39A27 /* ProductsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B0612602A29437800FA1C1A /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 		7B5AC0332A28DAC000A6CF68 /* ProductScreenSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductScreenSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5AC0362A28DAC000A6CF68 /* ProductScreenSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductScreenSwiftUIApp.swift; sourceTree = "<group>"; };
 		7B5AC0382A28DAC000A6CF68 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
@@ -41,6 +44,7 @@
 		7B5AC05D2A28EFD000A6CF68 /* ProductStarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductStarView.swift; sourceTree = "<group>"; };
 		7B5AC05F2A28F0C700A6CF68 /* ExtraArgumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraArgumentView.swift; sourceTree = "<group>"; };
 		7B5AC0612A28FC4800A6CF68 /* ScrollableProductImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableProductImageView.swift; sourceTree = "<group>"; };
+		7B7F460A2A292CB300F39A27 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 		7B5AC0472A28DEB000A6CF68 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				7B7F460A2A292CB300F39A27 /* ProductsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 				7B5AC05D2A28EFD000A6CF68 /* ProductStarView.swift */,
 				7B5AC05F2A28F0C700A6CF68 /* ExtraArgumentView.swift */,
 				7B5AC0612A28FC4800A6CF68 /* ScrollableProductImageView.swift */,
+				7B0612602A29437800FA1C1A /* RectangleView.swift */,
 			);
 			path = ProductCollectionViewCell;
 			sourceTree = "<group>";
@@ -212,6 +218,7 @@
 			files = (
 				7B5AC0392A28DAC000A6CF68 /* DiscoverView.swift in Sources */,
 				7B5AC0622A28FC4800A6CF68 /* ScrollableProductImageView.swift in Sources */,
+				7B7F460B2A292CB300F39A27 /* ProductsViewModel.swift in Sources */,
 				7B5AC0592A28ED8B00A6CF68 /* ProductCollectionViewCellView.swift in Sources */,
 				7B5AC0492A28DFB400A6CF68 /* ProductModel.swift in Sources */,
 				7B5AC04B2A28E53D00A6CF68 /* CollectionViewCell.swift in Sources */,
@@ -223,6 +230,7 @@
 				7B5AC0372A28DAC000A6CF68 /* ProductScreenSwiftUIApp.swift in Sources */,
 				7B5AC0532A28E89600A6CF68 /* MyBasketView.swift in Sources */,
 				7B5AC05E2A28EFD000A6CF68 /* ProductStarView.swift in Sources */,
+				7B0612612A29437800FA1C1A /* RectangleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
