@@ -25,7 +25,7 @@ struct DiscoverView: View {
     var body: some View {
         VStack {
             Text("Hello world")
-            Image(systemName: "person.fill")
+            Image(systemName: "person.fill")    
         }
     }
 }
